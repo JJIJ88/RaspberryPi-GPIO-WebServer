@@ -72,3 +72,7 @@ The ecosystem maps system slots directly to standalone hardware driver modules v
   Default Security:
   Username: Admin
   Password: Admin
+
+  http://localhost:5008
+  or
+  http://[IP]:5008 from any device reachable
