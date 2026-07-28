@@ -60,3 +60,15 @@ The ecosystem maps system slots directly to standalone hardware driver modules v
 ### 3. Reactive Industrial Control Interface
 * Built with Blazor Server, the interface provides comprehensive manual and event-driven configuration management.
 * Displays dynamic **ARMED** (amber monitoring) indicators when a hardware module is waiting on sensor line conditions, shifting instantly to a flashing neon-green **ACTIVE** runtime badge when the execution matrix is processing operations.
+
+  *******************************
+    Setup
+  *******************************
+
+  1.) Copy Folder to RaspberryPi
+  2.) Perform chmod +x on the RaspberryPi application in the folder
+  3.) Run the applicaiton ( ./RaspberryPi ) or register as a service.
+
+  Default Security:
+  Username: Admin
+  Password: Admin
