@@ -25,7 +25,7 @@ A high-performance, lightweight, multi-threaded industrial control and automatio
 │ High-Speed Telemetry Sync        │ Context Interlocks
 │                                  │
 ┌──────────────┴──────────────────────────────────┴───────────┐
-│             GpioPollingService (250ms Background Loop)       │
+│             GpioPollingService (25ms Background Loop)       │
 │  Reads inputs, tracks physical signals & arms active state  │
 └────────────────────────────────┬────────────────────────────┘
 │ Conditions Met?
